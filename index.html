@@ -450,21 +450,22 @@
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="reservation-card">
                         <h3 class="mb-4">Formulaire de Contact</h3>
-                        <form id="contactForm">
+                        <form id="contactForm" method="POST" data-netlify="true" name="contact">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control form-control-custom" placeholder="Votre nom" required>
+                                    <input type="text" class="form-control form-control-custom" placeholder="Votre nom" name="nom" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control form-control-custom" placeholder="Votre email" required>
+                                    <input type="email" class="form-control form-control-custom" placeholder="Votre email" name="email" required>
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control form-control-custom" placeholder="Sujet" required>
+                                <input type="text" class="form-control form-control-custom" placeholder="Sujet" name="sujet" required>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control form-control-custom" rows="5" placeholder="Votre message" required></textarea>
+                                <textarea class="form-control form-control-custom" rows="5" placeholder="Votre message" name="message" required></textarea>
                             </div>
+                            <input type="hidden" name="form-name" value="contact" />
                             <button type="submit" class="btn btn-primary-custom">Envoyer le message</button>
                         </form>
                     </div>
