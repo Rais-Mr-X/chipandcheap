@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip and Cheap - Pâtisserie</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Playfair+Display:wght@400;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="https://media.istockphoto.com/id/1755657127/fr/photo/ic%C3%B4ne-de-cupcake-r%C3%A9aliste-3d-ic%C3%B4ne-3d-isol%C3%A9e-sur-blanc.webp?a=1&b=1&s=612x612&w=0&k=20&c=uMWHTfbKrp8LzJb7F3Js3fGjtAPtkcAI4GYXOg_tc-o=" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo-font" href="#">
+                <i class="fas fa-birthday-cake me-2"></i>Chip and Cheap
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produits">Nos pâtisseries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chef">Notre chef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galerie">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="decorative-cake cake-1">
+            <i class="fas fa-cake-candles" style="font-size: 150px; color: var(--primary-color);"></i>
+        </div>
+        <div class="decorative-cake cake-2">
+            <i class="fas fa-cookie-bite" style="font-size: 150px; color: var(--accent-color);"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Maison de Pâtisserie</h1>
+                        <p class="hero-subtitle">Découvrez l'art de la pâtisserie, où chaque création est une œuvre d'art comestible préparée avec passion et des ingrédients d'exception.</p>
+                        <a href="#contact" class="btn btn-primary-custom btn-lg">Réservez dès maintenant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Notre Histoire</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Intérieur de notre pâtisserie" class="img-fluid about-image">
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="mb-4">Une Passion Héritée depuis 2024</h3>
+                        <p class="mb-4">Fondée par Divina Kabale en 2024, notre maison de pâtisserie perpétue depuis deux ans l'art délicat de la pâtisserie. Notre philosophie repose sur le respect des traditions associé à une touche de créativité moderne.</p>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Ingrédients d'exception</h4>
+                                <p>Nous sélectionnons rigoureusement nos produits auprès de producteurs locaux et utilisons des ingrédients de première qualité.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-hand-sparkles"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Fait main avec passion</h4>
+                                <p>Toutes nos pâtisseries sont confectionnées à la main par nos artisans avec le plus grand soin et une attention aux détails.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Reconnue pour son excellence</h4>
+                                <p>Notre maison aest recommandé par plusieurs clients satisfaits.</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary-custom mt-3">Visitez notre boutique</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produits" class="products-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Nos Pâtisseries Phares</h2>
+                    <p class="text-center mb-5">Découvrez nos créations signature, alliant tradition et innovation</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-img position-relative">
+                            <span class="product-badge">Best-seller</span>
+                            <img src="https://images.unsplash.com/photo-1597895139322-0a1ef77b3c30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFjYXJyb258ZW58MHx8MHx8fDA%3D" 
+                                 alt="Macarons assortis">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Macarons</span>
+                            <h4>Collection Signature</h4>
+                            <p>Une sélection exquise de macarons aux saveurs subtiles et aux couleurs vibrantes. Parfait pour les occasions spéciales.</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ms-2">(4.8)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">24$ / boîte</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-img position-relative">
+                            <span class="product-badge">Nouveauté</span>
+                            <img src="https://media.istockphoto.com/id/2243961228/fr/photo/g%C3%A2teau-op%C3%A9ra-g%C3%A2teau-op%C3%A9ra-sur-assiette-en-porcelaine-ancienne-blanc-dor%C3%A9.webp?a=1&b=1&s=612x612&w=0&k=20&c=Eu-ZHOT5Lwr-2DwzowUgQ3ohxuJNNhaQsFHeIjjNDxk=" 
+                                 alt="Gâteau opéra">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Gâteau</span>
+                            <h4>Opéra Classique</h4>
+                            <p>Notre interprétation du célèbre gâteau Opéra : biscuits Joconde imbibés de café, ganache au chocolat et glaçage.</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ms-2">(5.0)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">42$ / pièce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-img position-relative">
+                            <img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" 
+                                 alt="Croissants au beurre">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Viennoiseries</span>
+                            <h4>Croissant au Beurre AOP</h4>
+                            <p>Notre croissant signature préparé avec du beurre AOP Charentes-Poitou, croustillant à l'extérieur et fondant à l'intérieur.</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ms-2">(5.0)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">3.50$ / pièce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="#produits" class="btn btn-primary-custom btn-lg">Voir toute notre gamme</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section id="chef" class="chef-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Notre Maître Pâtissier</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="chef-card">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmVtbWUlMjBub2lyfGVufDB8fDB8fHww" 
+                                     alt="Cheffe Divina Kabale" class="chef-image">
+                                <h3 class="mt-3">Divina Kabale</h3>
+                                <p class="text-muted">Cheffe pâtissière & Propriétaire</p>
+                            </div>
+                            <div class="col-md-8">
+                                <h4 class="mb-4">L'Artisan derrière nos Délices</h4>                                
+                                <p>Avec plus de 4 ans d'expérience, elle a perfectionnée son art en kinshasa et à travers la RDC.</p>
+                                
+                                <blockquote class="chef-quote">
+                                    "Pour moi, la pâtisserie est bien plus qu'un métier - c'est une passion qui se transmet de génération en génération. Chaque création doit raconter une histoire, évoquer une émotion et créer un souvenir inoubliable."
+                                </blockquote>
+                                
+                                <div class="row mt-4">
+                                    <div class="col-md-6">
+                                        <h5>Spécialités</h5>
+                                        <ul>
+                                            <li>Pâtisseries à base de chocolat</li>
+                                            <li>Entremets modernes</li>
+                                            <li>Macarons signature</li>
+                                            <li>Viennoiseries au levain naturel</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="chef-signature">Divina Kabale</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title section-title-light">Notre Maison en Chiffres</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-text">Ans d'expérience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-text">Pâtisseries différentes</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3000">0</div>
+                        <div class="stat-text">Clients satisfaits</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galerie" class="gallery-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Galerie de nos Créations</h2>
+                    <p class="text-center mb-5">Explorez l'univers visuel de nos délices sucrés</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Filter -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="gallery-filter" id="gallery-filter">
+                        <button class="filter-btn active" data-filter="all">Toutes</button>
+                        <button class="filter-btn" data-filter="gateaux">Gâteaux</button>
+                        <button class="filter-btn" data-filter="viennoiseries">Viennoiseries</button>
+                        <button class="filter-btn" data-filter="chocolat">Chocolat</button>
+                        <button class="filter-btn" data-filter="macarons">Macarons</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Items -->
+            <div class="row" id="gallery-container">
+                <!-- Gallery Item 1 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="gateaux">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80" 
+                         alt="Gâteau aux fruits rouges" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Gâteaux</span>
+                        <h4>Gâteau Framboise-Vanille</h4>
+                        <p>Génoise vanille, crème framboise et fruits frais</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="viennoiseries">
+                    <img src="https://plus.unsplash.com/premium_photo-1667806845059-51fa9165bda1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFpbiUyMGF1JTIwY2hvY29sYXR8ZW58MHx8MHx8fDA%3D" 
+                         alt="Pains au chocolat" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Viennoiseries</span>
+                        <h4>Pains au Chocolat</h4>
+                        <p>Feuilletage au beurre AOP et chocolat noir 70%</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="chocolat">
+                    <img src="https://images.unsplash.com/photo-1623334044303-241021148842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Décorations en chocolat" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Chocolat</span>
+                        <h4>Sculptures en Chocolat</h4>
+                        <p>Créations artistiques en chocolat grand cru</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="macarons">
+                    <img src="https://images.unsplash.com/photo-1584629776284-f946771467fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFjYXJvbiUyMGR1JTIwamFyZGlufGVufDB8fDB8fHww" 
+                         alt="Macarons colorés" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Macarons</span>
+                        <h4>Macarons du Jardin</h4>
+                        <p>Saveurs florales : rose, lavande et violette</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="gateaux">
+                    <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                         alt="Gâteau mariage" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Gâteaux</span>
+                        <h4>Pièce Montée de Mariage</h4>
+                        <p>Création sur mesure pour votre journée spéciale</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="viennoiseries">
+                    <img src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Chouquettes" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Viennoiseries</span>
+                        <h4>Chouquettes Fraîches</h4>
+                        <p>Légères et aériennes, saupoudrées de sucre perlé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Contact & Réservation</h2>
+                    <p class="text-center mb-5">Prenez contact avec nous pour toute question ou réservation</p>
+                </div>
+            </div>
+            
+            <div class="row mb-5">
+                <!-- Contact Info 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 class="text-center">Notre Adresse</h4>
+                        <p class="text-center">123 Avenue de la Pâtisserie, C/Ngaliema<br>Kinshasa, RDC</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Info 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4 class="text-center">Téléphone</h4>
+                        <p class="text-center">+243 991 252 390</p>
+                        <p class="text-center small">Lun-Sam: 8h00-20h00</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Info 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="text-center">Email</h4>
+                        <p class="text-center">chipandcheap@gmail.com</p>
+                        <p class="text-center small">Réponse sous 24h</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="reservation-card">
+                        <h3 class="mb-4">Formulaire de Contact</h3>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control form-control-custom" placeholder="Votre nom" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control form-control-custom" placeholder="Votre email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control form-control-custom" placeholder="Sujet" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-custom" rows="5" placeholder="Votre message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Reservation Process -->
+                <div class="col-lg-4">
+                    <div class="reservation-card">
+                        <h3 class="mb-4">Comment Réserver</h3>
+                        
+                        <div class="reservation-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h5>Choisissez vos pâtisseries</h5>
+                                <p>Sélectionnez vos délices préférés sur notre site</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reservation-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h5>Contactez-nous</h5>
+                                <p>Utilisez le formulaire ou appelez-nous</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reservation-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h5>Confirmation</h5>
+                                <p>Nous confirmons votre commande sous 24h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reservation-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h5>Récupération</h5>
+                                <p>Venez chercher votre commande à la boutique</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5>Commande en ligne bientôt disponible</h5>
+                            <p>Notre système de commande en ligne est en cours de développement. En attendant, contactez-nous directement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.8583700792874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1615901884476!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Logo & Description -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a href="#" class="footer-logo logo-font"><i class="fas fa-birthday-cake me-2"></i>Chip and Cheap</a>
+                    <p>Depuis 2024, nous créons des pâtisseries d'exception qui ravissent les papilles et émerveillent les yeux. Chaque création est une œuvre d'art comestible.</p>
+                    
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Liens Rapides</h5>
+                        <ul>
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#about">À propos</a></li>
+                            <li><a href="#produits">Pâtisseries</a></li>
+                            <li><a href="#chef">Notre Chef</a></li>
+                            <li><a href="#galerie">Galerie</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Information -->
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Informations</h5>
+                        <ul>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Livraison</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Conditions générales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="col-lg-4">
+                    <div class="footer-links">
+                        <h5>Newsletter</h5>
+                        <p>Inscrivez-vous pour recevoir nos dernières créations et offres exclusives.</p>
+                        
+                        <form class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Votre email" required>
+                            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                        
+                        <div class="mt-4">
+                            <h5>Horaires d'ouverture</h5>
+                            <p>Lun-Sam: 8h00-20h00<br>Dimanche: 9h00-18h00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Maison de Pâtisserie Chip and Cheap. Tous droits réservés. | Site créé par Israël Mukadi  pour la pâtisserie Chip and Cheap.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
